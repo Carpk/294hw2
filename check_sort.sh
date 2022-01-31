@@ -10,7 +10,12 @@ do
       echo "$filename is unsorted"
     fi
   else
-    echo "is a directory"
+    if [ -d $filename ]
+    then
+      echo "$filename is a directory"
+    else
+      echo "$filename does not exist"
+    fi
   fi
 done
 
