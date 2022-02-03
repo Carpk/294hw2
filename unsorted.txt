@@ -1,5 +1,5 @@
-Taco
-alpha
-xray
-Gold
 
+alpha
+Gold
+Taco
+xray
