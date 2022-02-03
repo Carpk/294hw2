@@ -7,7 +7,7 @@ do
     then
       echo "$filename is sorted"
     else
-      echo "$filename is unsorted"
+      echo "$filename is not sorted"
     fi
   else
     if [ -d $filename ]
